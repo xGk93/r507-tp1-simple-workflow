@@ -1,0 +1,14 @@
+name: Simple panini
+
+on:
+  #schedule:
+  #  - cron: 0 1-23 * * *
+  workflow_dispatch:
+  
+
+jobs:
+   test:
+       runs-on: ubuntu-latest
+       steps:
+           - name: Premier log de suivi
+             run: echo "Première étape"
